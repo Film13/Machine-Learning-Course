@@ -1,0 +1,40 @@
+========================================
+       NEURAL NETWORK LAB 6
+       EPOCH COMPARISON
+========================================
+
+Dataset: cats(1).csv
+Dataset Shape: (298, 11)
+Training Samples: 238
+Testing Samples: 60
+
+Neural Network Configuration:
+Hidden Layers: 2
+Neurons: 16, 8
+Activation: ReLU
+Solver: Adam
+
+========================================
+       EPOCH COMPARISON RESULTS
+========================================
+Epochs:  10 | Accuracy: 0.5500 | 55.00%
+Epochs:  25 | Accuracy: 0.5667 | 56.67%
+Epochs:  50 | Accuracy: 0.5667 | 56.67%
+Epochs: 100 | Accuracy: 0.5667 | 56.67%
+Epochs: 200 | Accuracy: 0.7000 | 70.00%
+
+========================================
+           RESULTS TABLE
+========================================
+ Epochs  Accuracy
+     10  0.550000
+     25  0.566667
+     50  0.566667
+    100  0.566667
+    200  0.700000
+
+========================================
+           BEST RESULT
+========================================
+Best Epochs: 200
+Best Accuracy: 70.00%

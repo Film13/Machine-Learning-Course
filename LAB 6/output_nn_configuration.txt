@@ -1,0 +1,40 @@
+========================================
+       NEURAL NETWORK LAB 6
+       NN CONFIGURATION
+========================================
+
+Dataset: cats(1).csv
+Dataset Shape: (298, 11)
+Training Samples: 238
+Testing Samples: 60
+
+Epochs used: 100
+
+========================================
+       CONFIGURATION RESULTS
+========================================
+1 Hidden Layer - 8 Neurons | Accuracy: 0.5000 (50.00%)
+1 Hidden Layer - 16 Neurons | Accuracy: 0.5500 (55.00%)
+2 Hidden Layers - 16, 8 Neurons | Accuracy: 0.5667 (56.67%)
+2 Hidden Layers - 32, 16 Neurons | Accuracy: 0.6167 (61.67%)
+3 Hidden Layers - 32, 16, 8 Neurons | Accuracy: 0.5833 (58.33%)
+
+========================================
+           RESULTS TABLE
+========================================
+
+                      Configuration  Hidden Layers     Neurons  Accuracy  Accuracy (%)
+         1 Hidden Layer - 8 Neurons              1        (8,)  0.500000     50.000000
+        1 Hidden Layer - 16 Neurons              1       (16,)  0.550000     55.000000
+    2 Hidden Layers - 16, 8 Neurons              2     (16, 8)  0.566667     56.666667
+   2 Hidden Layers - 32, 16 Neurons              2    (32, 16)  0.616667     61.666667
+3 Hidden Layers - 32, 16, 8 Neurons              3 (32, 16, 8)  0.583333     58.333333
+
+========================================
+           BEST CONFIGURATION
+========================================
+
+Configuration: 2 Hidden Layers - 32, 16 Neurons
+Hidden Layers: 2
+Neurons: (32, 16)
+Accuracy: 61.67%
