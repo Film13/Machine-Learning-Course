@@ -1,0 +1,7 @@
+ultralytics
+pandas
+requests
+pillow
+matplotlib
+scikit-learn
+opencv-python
